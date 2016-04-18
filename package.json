@@ -1,0 +1,98 @@
+{
+  "_args": [
+    [
+      "react-soundplayer",
+      "/Users/joe/Desktop/test"
+    ]
+  ],
+  "_from": "react-soundplayer@*",
+  "_id": "react-soundplayer@0.3.4",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/react-soundplayer",
+  "_nodeVersion": "4.4.1",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/react-soundplayer-0.3.4.tgz_1459684646630_0.047380131436511874"
+  },
+  "_npmUser": {
+    "email": "dmitri.voronianski@gmail.com",
+    "name": "dmitri"
+  },
+  "_npmVersion": "2.14.20",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "react-soundplayer",
+    "raw": "react-soundplayer",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "*",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-soundplayer/-/react-soundplayer-0.3.4.tgz",
+  "_shasum": "a5fea06bb3b84d59042ee60dc6c43943d3c15359",
+  "_shrinkwrap": null,
+  "_spec": "react-soundplayer",
+  "_where": "/Users/joe/Desktop/test",
+  "author": {
+    "email": "dmitri.voronianski@gmail.com",
+    "name": "Dmitri Voronianski"
+  },
+  "dependencies": {
+    "classnames": "^2.1.2",
+    "object-assign": "^4.0.1",
+    "soundcloud-audio": "^1.0.0"
+  },
+  "description": "Create custom SoundCloud players with React",
+  "devDependencies": {
+    "babel": "^5.1.2",
+    "babelify": "^6.0.2",
+    "basscss": "^6.0.0",
+    "browserify": "^9.0.8",
+    "cssnext": "^1.2.3",
+    "envify": "^3.4.0",
+    "highlight.js": "^8.5.0",
+    "watchify": "^2.4.0"
+  },
+  "directories": {
+    "example": "examples"
+  },
+  "dist": {
+    "shasum": "a5fea06bb3b84d59042ee60dc6c43943d3c15359",
+    "tarball": "https://registry.npmjs.org/react-soundplayer/-/react-soundplayer-0.3.4.tgz"
+  },
+  "gitHead": "cbf6217a4cf31642048d36ae419e21b765332270",
+  "keywords": [
+    "audio",
+    "component",
+    "html5",
+    "react",
+    "react-component",
+    "soundcloud"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "dmitri",
+      "email": "dmitri.voronianski@gmail.com"
+    }
+  ],
+  "name": "react-soundplayer",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "react": "^15.0.x",
+    "react-dom": "^15.0.x"
+  },
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "build": "npm run build-js && npm run build-css",
+    "build-css": "rm -rf ./styles && mkdir styles && node .cssnext",
+    "build-js": "rm -rf ./lib && babel src -d lib --stage 0",
+    "prepublish": "npm run build"
+  },
+  "version": "0.3.4"
+}
